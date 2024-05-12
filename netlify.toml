@@ -1,0 +1,7 @@
+[images]
+  remote_images = ["https://media.istockphoto.com/.*","https://images.unsplash.com/","https://ik.imagekit.io/*"]
+[dev]
+  targetPort = 3000
+  port = 8888
+[build]
+  functions = "functions/"

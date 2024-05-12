@@ -1,0 +1,55 @@
+.custom-preview-outer-container {
+  position: relative;
+  width: 110% !important;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.custom-preview-container {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.custom-preview-inner-container {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+.hand-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.custom-preview-container:hover .hand-icon {
+  display: block;
+}
+
+.custom-preview-container {
+  cursor: move;
+}
+
+.custom-preview-container:active {
+  cursor: grabbing;
+}
+
+@media (max-width: 600px) {
+  .custom-preview-outer-container {
+    width: 90% !important;
+  }
+}
