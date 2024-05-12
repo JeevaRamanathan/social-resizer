@@ -109,7 +109,7 @@ const CustomPreview = ({ deleteImage, fileprops, previewUrl, tone }) => {
   return (
     <div
       className="custom-preview-outer-container"
-      style={{ maxWidth: "600px", height: "600px" }}
+      style={{ maxWidth: "600px", height: "600px",width:"100%",minWidth:"300px"}}
     >
       <div
         className="custom-preview-container"

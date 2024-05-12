@@ -78,6 +78,9 @@ function CustomResize() {
     setPreviewUrl(url);
     console.log(url);
   };
+   const handleScroll = () => { 
+     document.getElementById("social-section").scrollIntoView({ behavior: "smooth" })
+   }
 
   const deleteImage = () => {
     setImageUrl("");
@@ -180,7 +183,7 @@ function CustomResize() {
               tone={tones}
             ></CustomPreview>
           </Col>
-          <Col lg={6} md={6}>
+          <Col lg={6} md={24}>
             <motion.div
               initial={{ x: -100 }}
               whileInView={{ x: 0 }}
@@ -334,6 +337,7 @@ function CustomResize() {
         </Row>
         {previewUrl && (
           <div
+          onClick={() => {handleScroll()}}
             className="scroll"
             style={{
               position: "absolute",
@@ -344,8 +348,13 @@ function CustomResize() {
             <div className="mouse"></div>
           </div>
         )}
-      </Container>
-      {previewUrl && <SocialSection previewUrl={imageUrl} />}
+      </Container>  
+      {previewUrl && 
+      <div id="social-section"  >
+      <SocialSection previewUrl={imageUrl} /> 
+      </div>
+      }
+      
     </div>
   );
 }

@@ -162,10 +162,11 @@ body {
     font-size: 32px;
   }
 }
-
 .custom-resize {
   font-family: "Comic Sans MS", cursive, sans-serif;
   border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
 }
 
 .custom-resize .ant-form-item-label > label {
@@ -181,6 +182,9 @@ body {
 
   .loading .container div h1 {
     font-size: 62px;
+  }
+  :where(.css-dev-only-do-not-override-1o8iaow).ant-col-lg-6 {
+    margin-left: 27px !important;
   }
 }
 
@@ -202,6 +206,9 @@ body {
 
   .loading .container div .cards .card .card-body img {
     max-width: 220px;
+  }
+  :where(.css-dev-only-do-not-override-1o8iaow).ant-col-lg-6 {
+    margin-left: 0px !important;
   }
 }
 
