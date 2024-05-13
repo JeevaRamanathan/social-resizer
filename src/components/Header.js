@@ -43,13 +43,13 @@ function Loading() {
             animate={{ x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <AnimationTitles title="Social Sizer" />
+            <AnimationTitles title="Social Resizer" />
             <h5 className="text-white">
               Perfectly-Sized Images for Every Platform
             </h5>
             <p className="gray-90 mt-3 fs-5">
               Effortlessly resize images, enhance, and adjust color for
-              different social media platforms and post types. Social sizer
+              different social media platforms and post types. Social Resizer
               simplifies the process, ensuring your images fit perfectly for
               each platform, making sharing hassle-free.
             </p>
