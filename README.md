@@ -1,3 +1,6 @@
+[Demo](https://social-resizer.netlify.app/) |
+[Dev Post](https://dev.to/jeevaramanathan/social-sizer-perfectly-sized-images-for-every-social-platform-1kh3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -19,3 +22,4 @@ To preview your React app using Netlify, follow these steps:
 4. Open the provided local URL (usually [http://localhost:8888](http://localhost:8888)) in your browser to preview your app.
 
 Now you can view and interact with your React app locally using Netlify's development server.
+
