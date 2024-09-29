@@ -1,4 +1,4 @@
-[Demo](https://social-resizer.netlify.app/) |
+[App Demo](https://social-resizer.netlify.app/) | 
 [Dev Post](https://dev.to/jeevaramanathan/social-sizer-perfectly-sized-images-for-every-social-platform-1kh3)
 
 # Getting Started with Create React App
